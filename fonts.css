@@ -11,6 +11,7 @@ I noticed it is important to keep the src: line - including the base64 string - 
 The base64 command might insert line breaks by default. 
 That can be disabled using the -w parameter: base64 -w 0 font.ttf > font_base64.txt. (for the base64 utility from GNU coreutils) 
 */
+
 @font-face{
     font-family: ict_kabel_medium;
     src: url(./media/ITCKabelStd-Medium.otf) format("opentype");;
